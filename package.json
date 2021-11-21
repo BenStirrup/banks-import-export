@@ -1,0 +1,25 @@
+{
+  "name": "banks-import-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paykromCsvToComptalibCsv.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenStirrup/banks-import-export.git"
+  },
+  "author": "Benjamin Stirrup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenStirrup/banks-import-export/issues"
+  },
+  "homepage": "https://github.com/BenStirrup/banks-import-export#readme",
+  "dependencies": {
+    "csv": "^6.0.5"
+  }
+}
