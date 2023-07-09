@@ -16,7 +16,7 @@ const file = fs.readFileSync(sourcePath, 'utf8')
 const writeStream = fs.createWriteStream(outputPath)
 
 csv
-  .parse(file, { columns: true, delimiter: ';' })
+  .parse(file, { columns: true, delimiter: ',' })
   .pipe(
     csv.transform((record) => {
       const { tiers, libelle, reference, date, debit, credit } = record
